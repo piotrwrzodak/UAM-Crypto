@@ -1,4 +1,4 @@
-from piotr_wrzodak_16_2 import pow_exp
+from project_1.piotr_wrzodak_16_2 import pow_exp
 
 
 def task4(b, p):
