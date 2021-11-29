@@ -16,7 +16,7 @@ def generate_variables(p):
 def generate_elliptic_curve():
     p = pow(2, 315) - 465
     mod_prime = p % 4
-    print("\nprime:", p, "mod_prime:", mod_prime)
+    print("prime:", p, "mod_prime:", mod_prime)
 
     a, b = generate_variables(p)
     d = calc_discriminant(a, b)
