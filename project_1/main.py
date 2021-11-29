@@ -1,8 +1,8 @@
-from project_1.piotr_wrzodak_16_1 import euclidean_algorithm
-from project_1.piotr_wrzodak_16_2 import pow_exp
-from project_1.piotr_wrzodak_16_3 import task3
-from project_1.piotr_wrzodak_16_4 import task4
-from project_1.piotr_wrzodak_16_5 import task5
+from project_1.piotr_wrzodak_16_1_1 import euclidean_algorithm
+from project_1.piotr_wrzodak_16_1_2 import pow_exp
+from project_1.piotr_wrzodak_16_1_3 import task3
+from project_1.piotr_wrzodak_16_1_4 import task4
+from project_1.piotr_wrzodak_16_1_5 import task5
 
 
 def project_1():

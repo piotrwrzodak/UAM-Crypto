@@ -1,12 +1,12 @@
-from project_1.piotr_wrzodak_16_2 import pow_exp
+from project_1.piotr_wrzodak_16_1_2 import pow_exp
 
 
 def task5(b, p):
     result = pow_exp(b, (p - 1) // 2, p)
     if result == 1:
-        return pow_exp(b, (p + 1)//4, p)
+        return [True, pow_exp(b, (p + 1)//4, p)]
     else:
-        return 'b nie jest reszta kwadratowa'
+        return [False, 'b nie jest reszta kwadratowa']
 
 
 # print(task5(2, 2**(201) - 313))
